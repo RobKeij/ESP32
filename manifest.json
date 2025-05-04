@@ -11,8 +11,7 @@
       "chipFamily": "ESP32",
       "parts": [
         {
-          "path": "ESP32.bin",
-          "offset": 0
+          "path": "ESP32.bin", "offset": 0
         }
       ]
     }
