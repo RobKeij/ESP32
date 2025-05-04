@@ -1,5 +1,5 @@
 {
-  "name": "Spi-Small Practical Innovation",
+  "name": "Test firmware",
   "version": "1.0.1",
   "home_assistant_domain": "spi",
   "new_install_prompt_erase": true,
