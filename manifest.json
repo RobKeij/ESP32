@@ -1,0 +1,20 @@
+{
+  "name": "Spi-Small Practical Innovation",
+  "version": "1.0.1",
+  "home_assistant_domain": "spi",
+  "new_install_prompt_erase": true,
+  "improv": {
+    "serial": true
+  },
+  "builds": [
+    {
+      "chipFamily": "ESP32",
+      "parts": [
+        {
+          "path": "https://special-applications.nl/fw/ESP32.bin",
+          "offset": 0
+        }
+      ]
+    }
+  ]
+}

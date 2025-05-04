@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <title>ESP32 Web Installer</title>
+  <script type="module" src="https://unpkg.com/esp-web-tools@9/dist/web/install-button.js?module"></script>
+  <style>
+    body {
+      font-family: sans-serif;
+      background-color: #f8f8f8;
+      padding: 2rem;
+      max-width: 600px;
+      margin: auto;
+    }
+    esp-web-install-button {
+      --esp-tools-button-color: #007bff;
+      --esp-tools-button-border-radius: 8px;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+  <h1>ESP32 Firmware Installatie</h1>
+  <p>Sluit je ESP32 aan via USB en klik op de knop hieronder om firmware te installeren en Wi-Fi in te stellen.</p>
+
+  <esp-web-install-button manifest="manifest.json">
+  </esp-web-install-button>
+</body>
+</html>
